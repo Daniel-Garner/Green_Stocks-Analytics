@@ -8,7 +8,8 @@ Steve should look at both economic and industry related influences before advisi
 Now lets see if the workbook can handle increasing the number of stocks analyzed.
 
 Execution time
-Improving the efficiency of the code was a success! Execution time improved from 0.9433594 seconds to 0.1708984 seconds for 2017, and, 1.066406 to 0.1894531 for 2018. That’s an improvement of approximately 82% for each year.
+
+Improving the efficiency of the code was minimal at best! Execution time varied very little from 0.8320313 seconds to 0.8359375 seconds for 2017, and, 0.8203125 to 0.8320313 for 2018.
 
 Execution time for 2017 Original Coding
 
@@ -30,7 +31,8 @@ Summary
 
 Advantages of refactoring code
 
-I found no obvious advantage of refactoring code is that it makes it more efficient if you get it right. Execution time was actually fractionaly longer. can be huge if analyzing thousands of rows of data.
+I found no obvious advantage of refactoring code. Possibly I have done something wrong? Execution time was actually fractionaly longer.
 
 Disadvantages of refactoring code
+
 A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. That way you can always go back a step without needing to start completely over. I personally ran into issues during refactoring and found that using the msgBox script, as well as, testing performance outputs individually helped me identify what was driving my errors.
